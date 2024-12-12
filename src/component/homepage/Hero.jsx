@@ -4,8 +4,8 @@ import { useProvider } from "../PostProvider"
 function Hero() {
   const {responsive} = useProvider();
   return (
-    <section id="#section--1" className={`w-full h-1/3 flex ${responsive === true ? 'flex-col items-start gap-10' : 'flex-row items-center'} justify-around  py-6 px-3 border-b border-b-gray-200`}>
-        <div className="flex flex-col gap-6">
+    <section className={`w-full h-1/3 flex ${responsive === true ? 'flex-col items-start gap-10' : 'flex-row items-center'} justify-around  py-6 px-3 border-b border-b-gray-200`}>
+        <div className="flex flex-col gap-6 py-20">
             <div className="w-[400px] px-3 text-wrap">
             <h1 className={`font-bebas ${responsive ? 'text-[3rem]' : 'text-[4rem]' } leading-[3.5rem]`}><span>hi, i am</span> <br /><span>kingsley effiong.</span></h1>
             <p className="text-[var(--light-gray)]">A Sydney based front-end developer passionate about building accessible and user friendly websites.</p>
