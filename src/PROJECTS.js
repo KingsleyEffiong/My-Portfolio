@@ -1,41 +1,60 @@
-import image1 from "./assets/images/work 2.png"
-import image2 from "./assets/images/dashboard expense.png"
-import image3 from "./assets/images/dashbaord.png"
+import image1 from "./assets/images/todo list design.jpg"
+import image2 from "./assets/images/mounttech telegram miniapp.png"
+import image3 from "./assets/images/expense app.png"
+import image4 from "./assets/images/web 3 app.png"
+
+
 export const  PROJECTS = [
     {
         id:1,
         type:"Conceptual Work",
-        image:image1,
-        about: "Promotional landing page for our favorite show",
+        image:image3,
+        about: "Expense Tracking Application",
         name:"",
-        info:"Teamed up with a designer to breathe life into a promotional webpage for our beloved show, Adventure Time. Delivered a fully responsive design with dynamic content capabilities, seamlessly integrating a newsletter feature to keep fans updated with the latest adventures.",
-        year:2000,
+        info:"An intuitive expense tracking application built with React, styled using CSS Modules, and integrated with Firebase for data management. Categorize expenses (e.g., food, transport, etc.), view monthly summaries and total expenses and user authentication and data syncing via Firebase.",
+        year:2024,
+        stack:"React, Css Module, Firebase",
         role:"Front-end Developer",
-        link:"http://www.prom.com",
-        git_hub_link:"https://github.com/prom"
+        link:"https://my-expenses-eight.vercel.app/",
+        git_hub_link:"https://github.com/KingsleyEffiong/MyExpense-X"
     },
     {
         id:2,
         type:"Challenge",
         image:image2,
-        about: "E-commerce product page",
+        about: "Telegram Mini Application",
         name:"",
-        info:"Successfully crafted an engaging product page featuring a dynamic lightbox gallery and seamless cart functionality, showcasing proficiency in JavaScript development.",
+        info:"SA lightweight Telegram-inspired mini application built with React, styled using Tailwind CSS, and integrated with Firebase for real-time update",
         year:2021,
+        stack:"React, Tailwind Css, Firebase",
         role:"Front-end Developer",
-        link:"http://www.prom.com",
-        git_hub_link:"https://github.com/prom"
+        link:"https://mounttechapp.vercel.app/",
+        git_hub_link:"https://github.com/KingsleyEffiong/Telegram-MiniApp"
     },
     {
-        id:2,
+        id:3,
         type:"Challenge",
-        image:image3,
-        about: "Blog site for World News",
+        image:image4,
+        about: "Decentralised Web 3 Applicaion",
         name:"",
-        info:"Mastered CSS Grid complexities in building an innovative news homepage, navigating intricate design decisions for a seamless user experience. Leveraged the challenge to enhance skills in  front-end development.",
+        info:"A decentralized Web3 application built with Next.js, styled with CSS, and powered by Solidity for blockchain functionality. Smart contracts for secure and transparent transactions, Decentralized data storage and interaction with the blockchain, User-friendly interface with seamless wallet integration (e.g., MetaMask) and Real-time updates on blockchain data.",
         year:2021,
+        stack:"Next js, CSS, Solidity",
+        role:"MernStack Developer",
+        link:"https://token-livid.vercel.app/",
+        git_hub_link:"https://github.com/KingsleyEffiong/Web-3-Web-application"
+    },
+    {
+        id:4,
+        type:"Challenge",
+        image:image1,
+        about: "Todo list application",
+        name:"",
+        info:"A fully functional to-do list built with React, styled using Tailwind CSS, and powered by Firebase for real-time updates. Key Features: Add, edit, delete. User authentication with Firebase. Real-time task syncing across devices. A modern, responsive, and scalable project showcasing full-stack development skills.",
+        year:2021,
+        stack:"React, Tailwind Css, Firebase",
         role:"Front-end Developer",
-        link:"http://www.prom.com",
-        git_hub_link:"https://github.com/prom"
+        link:"https://todolist-lovat-six.vercel.app/",
+        git_hub_link:"https://github.com/KingsleyEffiong/Todolist"
     },
 ]

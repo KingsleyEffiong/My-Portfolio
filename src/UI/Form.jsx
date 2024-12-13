@@ -10,7 +10,7 @@ function Form() {
             <input type="text" name="" id="" placeholder="Joe smith" className="h-[51px] w-full bg-[var(--brown)] rounded-full px-5 outline-none"/>
         </div>
                <div className="w-full h-auto flex flex-col gap-2">
-            <label htmlFor="email">Name</label>
+            <label htmlFor="email">Email</label>
             <input type="email" name="" id=""  className="h-[51px] w-full bg-[var(--brown)] rounded-full px-5 outline-none"/>
         </div>
                <div className="w-full h-auto flex flex-col gap-2">
