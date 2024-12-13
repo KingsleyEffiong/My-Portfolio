@@ -12,7 +12,7 @@ function Projects() {
         visible: {
             opacity: 1,
             transition: {
-                staggerChildren: 0.5, // Animates child items with a delay between each
+                staggerChildren: 1, // Animates child items with a delay between each
                     duration: 0.6, // Duration of the animation (in seconds)
                     ease: "easeOut", // Type of easing for the animation
             },
@@ -39,7 +39,7 @@ function Projects() {
             ref={section1}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, amount: 0.3 }} // Animation triggers when 30% of the section is in view
+            viewport={{ once: true, amount: 0 }} // Animation triggers when 30% of the section is in view
             variants={containerVariants} // Container animation
         >
             <div>
