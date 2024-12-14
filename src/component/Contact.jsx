@@ -28,7 +28,7 @@ const itemVariants = {
     },
 };
   return (
-    <motion.section ref={section3} className={`w-full h-1/3 flex ${responsive ? 'flex-col' : 'flex-row justify-around items-center'}  py-6 px-2 overflow-y-hidden`}
+    <motion.section ref={section3} className={`w-full h-1/3 flex ${responsive ? 'flex-col' : 'flex-row justify-around items-center'}  py-6 px-2 overflow-y-hidden overflow-x-hidden`}
     initial="hidden"
     whileInView="visible"
     viewport={{ once: true, amount: 0.3 }} // Animation triggers when 30% of the section is in view
